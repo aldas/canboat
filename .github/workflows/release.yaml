@@ -4,7 +4,7 @@ name: Upload release assets
 on:
   push:
     tags:
-      - "v*.*.*"
+      - "v*"
 
 jobs:
   build:
